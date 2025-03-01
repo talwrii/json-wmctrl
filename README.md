@@ -1,4 +1,4 @@
-# JSON Wmctrl
+# JSON wmctrl
 This is a partial reimplementation of wmctrl, the linux tool to interact with windows, but supports JSON output for more subtle control.
 
 At the moment, this only supports window listing because that is all I needed. The syntax is not compatible with the original wmctrl.

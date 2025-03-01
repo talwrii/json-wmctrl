@@ -31,7 +31,9 @@ def main():
     for window_id in sorted(windows):
         window = d.create_resource_object('window', window_id)
 
-        title = window.get_wm_name()
+        title = window.get_full_property(
+            d.intern_atom("WM_NAME", True), X.AnyPropertyType).value.decode('utf8')
+
         cls, cls2 = window.get_wm_class()
 
         if args.cls:
@@ -45,7 +47,7 @@ def main():
             "focus": focus,
             "class": cls2,
             "title": title or "",
-            "id": window_id
+            "id": window_id,
         })
 
 
