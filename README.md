@@ -19,6 +19,8 @@ This uses the Xlib python library, which you could use directly. See [this stack
 
 This [C++ command line tool by DarkMaguz](https://github.com/DarkMaguz/SimpleWMCtrl) implements this feature. But it is not easy to install like pip programs.
 
+The command-line tool [jc](https://github.com/kellyjonbrazil/jc) is designed to convert the output of a number of command-line tools to `JSON`. It does not support `wmctrl` at the moment, and this tool contains additional functionality, but support could be easily added and may be added in the future.
+
 # About me
 I am @readwithai. I make tools for reading and agency sometimes in Obsidian and occassionally write about these things. I also have a side-line in small useful tools.
 

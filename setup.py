@@ -1,5 +1,4 @@
 import setuptools
-import distutils.core
 
 setuptools.setup(
     name='json-wmctrl',
